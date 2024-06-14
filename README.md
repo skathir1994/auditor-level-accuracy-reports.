@@ -1,2 +1,9 @@
 # auditor-level-accuracy-reports.
 Automated sharing of auditor-level accuracy reports.
+
+Problem: The primary function of the super audit team is to validate the PA/DSM/PDM auditors' accuracy metrics and share the data with the corresponding team managers on weekly basis. Managers then communicate the accuracy metrics with their respective auditors. Stakeholders requested that the super audit team share the accuracy report at the auditor level instead of sharing the data with managers.  
+The super audit team validating the accuracy metrics of 250+ auditors on a weekly basis. while reviewing the stakeholder’s request. On average, the Super Audit Team sends the report of 250+ auditor level via Outlook, requiring one dedicated HC every week. 
+
+Proposed Solution: Since I am a tech expert, the super audit team inquired about the feasibility of sharing accuracy reports at the auditor level in an automated way. I then addressed the mentioned issue and obtained necessary information/data from the super audit team. I solved this problem with Python code. Instead of calculating accuracy metrics and sending out 250+ unique emails, the super audit base data is used as input for my code. With a single click, this code generated an accuracy report, shared it with the auditor level, and corresponded with the relevant managers via email.
+
+Impact:  While calculating each auditor's accuracy metrics and sharing the results with them, a more manual band with is required, which increases the possibility of manual errors. Instead of using the methods described above, my code simplifies the work of the super audit team. With a single click, the accuracy measurements are calculated automatically and shared to the appropriate auditors via Outlook in a touch-free manner. With this automation, I saved 1 FTE per week.  
